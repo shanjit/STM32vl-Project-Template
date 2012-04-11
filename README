@@ -8,4 +8,4 @@ Just import the output folder into Eclipse as an existing Makefile Project to ge
 
 Information on how to create a Project Template for any STM based ARM device on https://sites.google.com/site/cuilyahoo/. 
 
-
+Changes to be made for generalisation. 
