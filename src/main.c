@@ -1,5 +1,7 @@
+/* Project Template created by : Shanjit Singh Jajmann 
+ *                               shanjitsingh@gmail.com
+ * */
 
-/* Includes ------------------------------------------------------------------*/
 
 #include "stm32f10x.h"
 
