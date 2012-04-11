@@ -47,8 +47,6 @@ int main(void)
     while(1);
   }
 
-
-
   GPIO_InitTypeDef  GPIO_InitStructure;
   
   /* Enable the GPIO_LED Clock */
@@ -60,27 +58,12 @@ int main(void)
   GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
   GPIO_Init(GPIOC, &GPIO_InitStructure);
   
-  
-
-
-  /**
-    * @brief  Returns the clock source used as system clock.
-    * @param  None
-    * @retval The clock source used as system clock. The returned value can
-    *   be one of the following:
-    *     - 0x00: HSI used as system clock
-    *     - 0x04: HSE used as system clock
-    *     - 0x08: PLL used as system clock
-    */
-  //uint8_t i =
-
-
   while(1)
   {
   GPIOC->BSRR = GPIO_Pin_9;
-  Delay_sys(0x3e8);
+  Delay(100000);
   GPIOC->BRR = GPIO_Pin_9;
-  Delay_sys(0x3e8);
+  Delay(100000);
   }
 
 }

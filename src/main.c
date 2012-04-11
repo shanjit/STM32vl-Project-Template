@@ -47,8 +47,6 @@ int main(void)
     while(1);
   }
 
-
-
   GPIO_InitTypeDef  GPIO_InitStructure;
   
   /* Enable the GPIO_LED Clock */
@@ -63,9 +61,9 @@ int main(void)
   while(1)
   {
   GPIOC->BSRR = GPIO_Pin_9;
-  Delay_sys(0x3e8);
+  Delay(100000);
   GPIOC->BRR = GPIO_Pin_9;
-  Delay_sys(0x3e8);
+  Delay(100000);
   }
 
 }
