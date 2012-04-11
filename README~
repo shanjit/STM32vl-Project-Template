@@ -1,4 +1,4 @@
-Project Template for the ARM based STM32 Value Line Discovery Kit.
+Project Template for the ARM based STM32 Value Line Discovery Kit
 
 Created by : Shanjit Singh Jajmann
 	     shanjitsingh@gmail.com
@@ -6,6 +6,6 @@ Created by : Shanjit Singh Jajmann
 
 Just import the output folder into Eclipse as an existing Makefile Project to get it up and running at the earliest. 
 
-Information on how to create a Project Template for any ARM based STM device on https://sites.google.com/site/cuilyahoo/. 
+Information on how to create a Project Template for any STM based ARM device on https://sites.google.com/site/cuilyahoo/. 
 
 Changes to be made for generalisation. 
